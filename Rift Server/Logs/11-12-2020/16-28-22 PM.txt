@@ -1,0 +1,9 @@
+[Trace]   DarkRiftServer        System Details:
+                                	OS: Microsoft Windows NT 6.2.9200.0
+                                	CLS Version: 4.0.30319.42000
+                                	DarkRift: 2.8.0.0 - Free
+[Trace]   PluginFactory         Created plugin 'PluginTest'.
+[Trace]   PluginManager         Plugin 'PluginTest' has requested that DarkRift operates in thread safe mode.
+[Trace]   DarkRiftServer        Switched into thread safe mode. Expect lower performance!
+[Info]    PluginManager         Loaded plugin PluginTest version 1.0.0
+[Trace]   PluginFactory         Created plugin 'BichannelListener'.

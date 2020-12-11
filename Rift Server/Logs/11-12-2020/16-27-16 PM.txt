@@ -1,0 +1,54 @@
+[Trace]   DarkRiftServer        System Details:
+                                	OS: Microsoft Windows NT 6.2.9200.0
+                                	CLS Version: 4.0.30319.42000
+                                	DarkRift: 2.8.0.0 - Free
+[Trace]   PluginFactory         Created plugin 'PluginTest'.
+[Trace]   PluginManager         Plugin 'PluginTest' has requested that DarkRift operates in thread safe mode.
+[Trace]   DarkRiftServer        Switched into thread safe mode. Expect lower performance!
+[Info]    PluginManager         Loaded plugin PluginTest version 1.0.0
+[Trace]   PluginFactory         Created plugin 'BichannelListener'.
+[Trace]   HttpHealthCheck       HTTP health check started at 'http://localhost:10666/health'
+[Trace]   DarkRiftServer        Binding listeners to ClientManager as server is externally visible.
+[Trace]   DefaultNetworkListener Starting bichannel listener.
+[Info]    DefaultNetworkListener Server mounted, listening on port 4296.
+[Trace]   DefaultNetworkListener Accepted TCP connection from 127.0.0.1:64786.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 127.0.0.1:63874.
+[Info]    ClientManager         New client [0] connected [127.0.0.1:64786|127.0.0.1:63874].
+[Trace]   DefaultNetworkListener Accepted TCP connection from 127.0.0.1:64789.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 127.0.0.1:53438.
+[Info]    ClientManager         New client [1] connected [127.0.0.1:64789|127.0.0.1:53438].
+[Trace]   DefaultNetworkListener Accepted TCP connection from 127.0.0.1:64793.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 127.0.0.1:60555.
+[Info]    ClientManager         New client [2] connected [127.0.0.1:64793|127.0.0.1:60555].
+[Trace]   DefaultNetworkListener Accepted TCP connection from 127.0.0.1:64796.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 127.0.0.1:60556.
+[Info]    ClientManager         New client [3] connected [127.0.0.1:64796|127.0.0.1:60556].
+[Trace]   DefaultNetworkListener Accepted TCP connection from 127.0.0.1:64799.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 127.0.0.1:60557.
+[Info]    ClientManager         New client [4] connected [127.0.0.1:64799|127.0.0.1:60557].
+[Trace]   DefaultNetworkListener Accepted TCP connection from 127.0.0.1:64802.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 127.0.0.1:60558.
+[Info]    ClientManager         New client [5] connected [127.0.0.1:64802|127.0.0.1:60558].
+[Trace]   DefaultNetworkListener Accepted TCP connection from 127.0.0.1:64805.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 127.0.0.1:60560.
+[Info]    ClientManager         New client [6] connected [127.0.0.1:64805|127.0.0.1:60560].
+[Trace]   DefaultNetworkListener Accepted TCP connection from 127.0.0.1:64809.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 127.0.0.1:62507.
+[Info]    ClientManager         New client [7] connected [127.0.0.1:64809|127.0.0.1:62507].
+[Trace]   DefaultNetworkListener Accepted TCP connection from 127.0.0.1:64828.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 127.0.0.1:62476.
+[Info]    ClientManager         New client [8] connected [127.0.0.1:64828|127.0.0.1:62476].
+[Trace]   DefaultNetworkListener Accepted TCP connection from 127.0.0.1:64834.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 127.0.0.1:58463.
+[Info]    ClientManager         New client [9] connected [127.0.0.1:64834|127.0.0.1:58463].
+[Info]    ClientManager         Client [1] disconnected: ConnectionReset.
+                                 System.Net.Sockets.SocketException (0x80004005): An existing connection was forcibly closed by the remote host
+[Info]    ClientManager         Client [2] disconnected.
+[Info]    ClientManager         Client [3] disconnected.
+[Info]    ClientManager         Client [4] disconnected.
+[Info]    ClientManager         Client [5] disconnected.
+[Info]    ClientManager         Client [6] disconnected.
+[Info]    ClientManager         Client [9] disconnected.
+[Info]    ClientManager         Client [8] disconnected.
+[Info]    ClientManager         Client [0] disconnected.
+[Info]    ClientManager         Client [7] disconnected.

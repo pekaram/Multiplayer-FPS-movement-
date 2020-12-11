@@ -1,0 +1,29 @@
+[Trace]   DarkRiftServer        System Details:
+                                	OS: Microsoft Windows NT 6.2.9200.0
+                                	CLS Version: 4.0.30319.42000
+                                	DarkRift: 2.8.0.0 - Free
+[Trace]   PluginFactory         Created plugin 'PluginTest'.
+[Info]    PluginManager         Loaded plugin PluginTest version 1.0.0
+[Trace]   PluginFactory         Created plugin 'BichannelListener'.
+[Trace]   HttpHealthCheck       HTTP health check started at 'http://localhost:10666/health'
+[Trace]   DarkRiftServer        Binding listeners to ClientManager as server is externally visible.
+[Trace]   DefaultNetworkListener Starting bichannel listener.
+[Info]    DefaultNetworkListener Server mounted, listening on port 4296.
+[Trace]   DefaultNetworkListener Accepted TCP connection from 127.0.0.1:64558.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 127.0.0.1:61947.
+[Info]    ClientManager         New client [0] connected [127.0.0.1:64558|127.0.0.1:61947].
+[Error]   ClientManager         An plugin encountered an error whilst handling the ClientDisconnected event. (See logs for exception)
+                                 System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+                                    at System.ThrowHelper.ThrowKeyNotFoundException()
+                                    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+                                    at DarkRiftTestPlugin.PluginTest.OnClientDisconnected(Object sender, ClientDisconnectedEventArgs e)
+                                    at DarkRift.Server.ClientManager.<>c__DisplayClass39_0.<HandleDisconnection>b__0()
+[Trace]   DefaultNetworkListener Accepted TCP connection from 127.0.0.1:64587.
+[Trace]   DefaultNetworkListener Accepted UDP connection from 127.0.0.1:52916.
+[Info]    ClientManager         New client [1] connected [127.0.0.1:64587|127.0.0.1:52916].
+[Error]   ClientManager         An plugin encountered an error whilst handling the ClientDisconnected event. (See logs for exception)
+                                 System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+                                    at System.ThrowHelper.ThrowKeyNotFoundException()
+                                    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+                                    at DarkRiftTestPlugin.PluginTest.OnClientDisconnected(Object sender, ClientDisconnectedEventArgs e)
+                                    at DarkRift.Server.ClientManager.<>c__DisplayClass39_0.<HandleDisconnection>b__0()
