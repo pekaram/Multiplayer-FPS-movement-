@@ -7,6 +7,7 @@ using DarkRift.Server.Plugins;
 using DarkRift.Server;
 using DarkRift.Dispatching;
 using System.Threading;
+using System.Collections.Concurrent;
 
 namespace DarkRiftTestPlugin
 {
@@ -17,12 +18,12 @@ namespace DarkRiftTestPlugin
 
         public override Version Version => new Version(1, 0, 0);
 
-        public Dictionary<ushort, Player> idsToPlayers = new Dictionary<ushort, Player>();
+        public ConcurrentDictionary<ushort, Player> idsToPlayers = new ConcurrentDictionary<ushort, Player>();
 
         private byte updateRate = 100;
 
         private bool isUpdatingWorld = true;
-
+        
         public PluginTest(PluginLoadData pluginLoadData) : base(pluginLoadData)
         {
             ClientManager.ClientConnected += OnClientConnected;
@@ -52,7 +53,12 @@ namespace DarkRiftTestPlugin
                     {                       
                         foreach (IClient client in ClientManager.GetAllClients())
                         {
-                            client.SendMessage(newPlayerMessage, SendMode.Reliable);
+                            if(client == null)
+                            {
+                                continue;
+                            }
+
+                            client.SendMessage(newPlayerMessage, SendMode.Unreliable);
                         }
                     }
                 }
@@ -64,7 +70,7 @@ namespace DarkRiftTestPlugin
         private void OnClientDisconnected(object sender, ClientDisconnectedEventArgs e)
         {
             var removedPlayer = this.idsToPlayers[e.Client.ID];
-            this.idsToPlayers.Remove(e.Client.ID);
+            this.idsToPlayers.TryRemove(e.Client.ID, out _);
             this.DestroyPlayer(removedPlayer);
             // Remove Player from all
         }
@@ -135,8 +141,10 @@ namespace DarkRiftTestPlugin
 
         private void SpawnPlayer(IClient connectedClient)
         {
+
             var player = new Player() { ID = connectedClient.ID, X = 0, Y = 0, Z = 0 };
-            idsToPlayers.Add(player.ID, player);
+
+            idsToPlayers.TryAdd(player.ID, player);
 
             using (DarkRiftWriter newPlayerWriter = DarkRiftWriter.Create())
             {
@@ -146,10 +154,18 @@ namespace DarkRiftTestPlugin
                 {
                     foreach (IClient client in ClientManager.GetAllClients())
                     {
+                        // ClientManager.GetAllClients() returns null clients that are still init?
+                        if (client == null)
+                        {
+                            continue;
+                        }
+
                         client.SendMessage(newPlayerMessage, SendMode.Reliable);
                     }
+
                 }
             }
+
         }
     }
 }
