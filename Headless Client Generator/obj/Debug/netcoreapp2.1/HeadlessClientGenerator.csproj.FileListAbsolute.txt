@@ -1,0 +1,16 @@
+C:\Users\peter\source\repos\ConsoleApp4\Console App\bin\Debug\netcoreapp2.1\HeadlessClientGenerator.deps.json
+C:\Users\peter\source\repos\ConsoleApp4\Console App\bin\Debug\netcoreapp2.1\HeadlessClientGenerator.runtimeconfig.json
+C:\Users\peter\source\repos\ConsoleApp4\Console App\bin\Debug\netcoreapp2.1\HeadlessClientGenerator.runtimeconfig.dev.json
+C:\Users\peter\source\repos\ConsoleApp4\Console App\bin\Debug\netcoreapp2.1\HeadlessClientGenerator.dll
+C:\Users\peter\source\repos\ConsoleApp4\Console App\bin\Debug\netcoreapp2.1\HeadlessClientGenerator.pdb
+C:\Users\peter\source\repos\ConsoleApp4\Console App\bin\Debug\netcoreapp2.1\DarkRift.Client.dll
+C:\Users\peter\source\repos\ConsoleApp4\Console App\bin\Debug\netcoreapp2.1\DarkRift.dll
+C:\Users\peter\source\repos\ConsoleApp4\Console App\bin\Debug\netcoreapp2.1\DarkRift.xml
+C:\Users\peter\source\repos\ConsoleApp4\Console App\bin\Debug\netcoreapp2.1\DarkRift.Client.xml
+C:\Users\peter\source\repos\ConsoleApp4\Console App\obj\Debug\netcoreapp2.1\HeadlessClientGenerator.csprojAssemblyReference.cache
+C:\Users\peter\source\repos\ConsoleApp4\Console App\obj\Debug\netcoreapp2.1\HeadlessClientGenerator.csproj.CoreCompileInputs.cache
+C:\Users\peter\source\repos\ConsoleApp4\Console App\obj\Debug\netcoreapp2.1\HeadlessClientGenerator.AssemblyInfoInputs.cache
+C:\Users\peter\source\repos\ConsoleApp4\Console App\obj\Debug\netcoreapp2.1\HeadlessClientGenerator.AssemblyInfo.cs
+C:\Users\peter\source\repos\ConsoleApp4\Console App\obj\Debug\netcoreapp2.1\HeadlessClientGenerator.csproj.CopyComplete
+C:\Users\peter\source\repos\ConsoleApp4\Console App\obj\Debug\netcoreapp2.1\HeadlessClientGenerator.dll
+C:\Users\peter\source\repos\ConsoleApp4\Console App\obj\Debug\netcoreapp2.1\HeadlessClientGenerator.pdb

@@ -1,0 +1,16 @@
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\bin\Release\netcoreapp2.1\ConsoleApp4.deps.json
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\bin\Release\netcoreapp2.1\ConsoleApp4.runtimeconfig.json
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\bin\Release\netcoreapp2.1\ConsoleApp4.runtimeconfig.dev.json
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\bin\Release\netcoreapp2.1\ConsoleApp4.dll
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\bin\Release\netcoreapp2.1\ConsoleApp4.pdb
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\bin\Release\netcoreapp2.1\DarkRift.Client.dll
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\bin\Release\netcoreapp2.1\DarkRift.dll
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\bin\Release\netcoreapp2.1\DarkRift.xml
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\bin\Release\netcoreapp2.1\DarkRift.Client.xml
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\obj\Release\netcoreapp2.1\ConsoleApp4.csprojAssemblyReference.cache
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\obj\Release\netcoreapp2.1\ConsoleApp4.csproj.CoreCompileInputs.cache
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\obj\Release\netcoreapp2.1\ConsoleApp4.AssemblyInfoInputs.cache
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\obj\Release\netcoreapp2.1\ConsoleApp4.AssemblyInfo.cs
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\obj\Release\netcoreapp2.1\ConsoleApp4.csproj.CopyComplete
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\obj\Release\netcoreapp2.1\ConsoleApp4.dll
+C:\Users\peter\source\repos\ConsoleApp4\ConsoleApp4\obj\Release\netcoreapp2.1\ConsoleApp4.pdb

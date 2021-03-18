@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DarkRift">
+      <HintPath>D:\Multiplayer-FPS-movement-\FPS movement Unity\Assets\DarkRift\DarkRift\Plugins\DarkRift.dll</HintPath>
+    </Reference>
+    <Reference Include="DarkRift.Client">
+      <HintPath>D:\Multiplayer-FPS-movement-\FPS movement Unity\Assets\DarkRift\DarkRift\Plugins\Client\DarkRift.Client.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
